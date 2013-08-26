@@ -2,7 +2,7 @@
 
 pkgname=android-support-repository
 pkgver=r02
-pkgrel=1
+pkgrel=2
 pkgdesc='Android Support Repository Package'
 arch=('any')
 url="https://developer.android.com/sdk/index.html"
