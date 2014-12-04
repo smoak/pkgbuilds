@@ -2,7 +2,7 @@
 
 pkgname=android-support-repository
 pkgver=r09
-pkgrel=1
+pkgrel=2
 pkgdesc='Android Support Repository Package'
 arch=('any')
 url="https://developer.android.com/sdk/index.html"
@@ -14,7 +14,7 @@ sha1sums=('75f5dc02d4388588c86a62d51298b75b83c3a11e')
 
 package() {
   mkdir -p "${pkgdir}/opt/android-sdk/extras/android/"
-  mv "${srcdir}/m2repository" "${pkgdir}/opt/android-sdk/extras/android/m2repository"
+  cp -dpr --no-preserve=ownership "${srcdir}/m2repository" "${pkgdir}/opt/android-sdk/extras/android/m2repository"
 
   chmod -R ugo+rX "${pkgdir}/opt"
 }
