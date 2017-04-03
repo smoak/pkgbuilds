@@ -1,4 +1,4 @@
-# Maintainer: Scott Moak <scott.moak@mybrainoncode.com>
+# Maintainer: Sasha Moak
 
 pkgname=python2-wget
 _hgname=python-wget

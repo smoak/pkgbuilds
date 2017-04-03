@@ -1,4 +1,4 @@
-# Maintainer: Scott Moak <scott dot moak at gmail dot com>
+# Maintainer: Sasha Moak
 
 pkgname=mopidy-musicbox
 _pypiname=Mopidy-MusicBox-Webclient
